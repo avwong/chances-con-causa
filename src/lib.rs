@@ -354,3 +354,6 @@ fn validar_numero(rifa: &Rifa, numero: u32) -> Result<(), Error> {
     }
     Ok(())
 }
+
+#[cfg(test)]
+mod test;
