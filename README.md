@@ -18,8 +18,6 @@ Eso trae problemas:
 
 ## Por qué lo elegí
 
-> **Suposición:** escribí esta razón como borrador. Cámbiala por la tuya.
-
 Elegí este problema porque las rifas con causa son parte de la vida en Costa Rica y casi todo el mundo ha comprado un número alguna vez.
 Es un problema pequeño, pero real.
 Un contrato inteligente sirve bien aquí: deja un registro público de los números y hace el sorteo con reglas que nadie puede cambiar a escondidas.
@@ -27,7 +25,7 @@ Un contrato inteligente sirve bien aquí: deja un registro público de los núme
 ## Cómo funciona
 
 Cada contrato desplegado maneja **una sola rifa**.
-El dinero **no** pasa por el contrato: se paga por fuera (por ejemplo, SINPE Móvil).
+El dinero **no** pasa por el contrato: se paga por fuera (por ejemplo, SINPE Móvil o efectivo).
 El contrato solo lleva el registro y hace el sorteo.
 
 ### Flujo
@@ -96,8 +94,6 @@ Quien envía la transacción podría intentar influir en el resultado.
 Una versión real necesitaría una fuente de aleatoriedad más fuerte, por ejemplo un oráculo o un esquema de compromiso y revelación.
 
 ## Suposiciones
-
-Esta es una primera versión. Estas son las suposiciones que hice:
 
 - El sorteo solo se puede hacer **después** de la fecha límite.
 - La fecha límite es una marca de tiempo Unix (segundos), la misma que usa el ledger.
