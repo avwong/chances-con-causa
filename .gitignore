@@ -1,0 +1,4 @@
+# Archivos generados por cargo
+/target
+# Snapshots que generan las pruebas de Soroban
+/test_snapshots
